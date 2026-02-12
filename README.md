@@ -6,6 +6,12 @@ To Run:
 Create database named documentinc using PostgreSQL \
 use submitted sql file to initiallize tables
 
+
+```
+cd <location of choice>
+git clone https://github.com/James-Wiley/documentIncORM.git
+cd documentIncORM
+```
 Create .env with:
 ```
 DB_USER=<db username>
@@ -16,9 +22,6 @@ DB_PORT=5432
 ```
 (may not be exact values, but this worked for me)
 ```
-cd <location of choice>
-git clone https://github.com/James-Wiley/documentIncORM.git
-cd documentIncORM
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt

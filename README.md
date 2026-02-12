@@ -7,12 +7,14 @@ Create database named documentinc using PostgreSQL
 use submitted sql file to initiallize tables
 
 Create .env with:
+```
 DB_USER=<db username>
 DB_PASSWORD=<db password>
 DB_NAME=documentinc
 DB_HOST=localhost
 DB_PORT=5432
-
+```
+(may not be exact values, but this worked for me)
 ```
 cd <location of choice>
 git clone https://github.com/James-Wiley/documentIncORM.git

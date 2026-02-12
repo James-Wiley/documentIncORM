@@ -2,7 +2,7 @@
 Testing:
 I used a venv for this project so that it could be easily tested and graded.
 
-To Run:
+To Run: \
 Create database named documentinc using PostgreSQL \
 use submitted sql file to initiallize tables
 
